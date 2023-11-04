@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+    background: url(urban.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    width: 750px;
+    background: #7684A9;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 40px 35px 55px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: 0 10px;
+}
+
+.form h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background:pink; */
+}
+
+.input-box .input-feild {
+    position: relative;
+    width: 40%;
+    
+    height: 48px;
+    /* background: salmon; */
+    margin: 13px 0;
+}
+
+.input-box .input-feild input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+}
+
+.input-box .input-feild input::placeholder {
+    color: white;
+}
+.input-feild{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-box .input-feild i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-style: 20px;
+}
+
+.form label {
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+}
+
+/* acc */
+.form label input {
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.form .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
